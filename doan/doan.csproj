@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D44C15B-63A1-4DE4-B1EC-14CCD0F43EC0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>doan</RootNamespace>
+    <AssemblyName>doan</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="class\CONGVIEC.cs" />
+    <Compile Include="class\CTHD.cs" />
+    <Compile Include="form\chi tiết hợp đồng\CTHDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\chi tiết hợp đồng\CTHDForm.Designer.cs">
+      <DependentUpon>CTHDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\chức năng\DoanhThuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\chức năng\DoanhThuForm.Designer.cs">
+      <DependentUpon>DoanhThuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\chức năng\ThanhToanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\chức năng\ThanhToanForm.Designer.cs">
+      <DependentUpon>ThanhToanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\cv\CVcuaThoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\cv\CVcuaThoForm.Designer.cs">
+      <DependentUpon>CVcuaThoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\DangKiUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\DangKiUserForm.Designer.cs">
+      <DependentUpon>DangKiUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\MY_DB.cs" />
+    <Compile Include="class\GUIXE.cs" />
+    <Compile Include="form\chức năng\GuiXeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\chức năng\GuiXeForm.Designer.cs">
+      <DependentUpon>GuiXeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\HOPDONG.cs" />
+    <Compile Include="class\KHACHHANG.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="form\xe\xe dap\QuanLyXeDapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\xe dap\QuanLyXeDapForm.Designer.cs">
+      <DependentUpon>QuanLyXeDapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\xe\xe hoi\QuanLyXeHoiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\xe hoi\QuanLyXeHoiForm.Designer.cs">
+      <DependentUpon>QuanLyXeHoiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\xe\xe may\QuanLyXeMayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\xe may\QuanLyXeMayForm.Designer.cs">
+      <DependentUpon>QuanLyXeMayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\xe\xe dap\ThemXeDapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\xe dap\ThemXeDapForm.Designer.cs">
+      <DependentUpon>ThemXeDapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\xe\xe hoi\ThemXeHoiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\xe hoi\ThemXeHoiForm.Designer.cs">
+      <DependentUpon>ThemXeHoiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\xe\xe may\ThemXeMayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\xe may\ThemXeMayForm.Designer.cs">
+      <DependentUpon>ThemXeMayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\xe\TimXeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\TimXeForm.Designer.cs">
+      <DependentUpon>TimXeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\USER.cs" />
+    <Compile Include="class\Xe\XEDAP.cs" />
+    <Compile Include="class\Xe\XEHOI.cs" />
+    <Compile Include="class\Xe\XEMAY.cs" />
+    <Compile Include="form\xe\xe dap\XoaSuaXeDapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\xe dap\XoaSuaXeDapForm.Designer.cs">
+      <DependentUpon>XoaSuaXeDapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\xe\xe hoi\XoaSuaXeHoiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\xe hoi\XoaSuaXeHoiForm.Designer.cs">
+      <DependentUpon>XoaSuaXeHoiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\xe\xe may\XoaSuaXeMayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\xe\xe may\XoaSuaXeMayForm.Designer.cs">
+      <DependentUpon>XoaSuaXeMayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\cv\QuanLyCVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\cv\QuanLyCVForm.Designer.cs">
+      <DependentUpon>QuanLyCVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\cv\ThemCVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\cv\ThemCVForm.Designer.cs">
+      <DependentUpon>ThemCVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\cv\TimKiemCVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\cv\TimKiemCVForm.Designer.cs">
+      <DependentUpon>TimKiemCVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\cv\XoaSuaCVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\cv\XoaSuaCVForm.Designer.cs">
+      <DependentUpon>XoaSuaCVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\thợ\QuanLyThoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\thợ\QuanLyThoForm.Designer.cs">
+      <DependentUpon>QuanLyThoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\khách hàng\QuanLyKHForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\khách hàng\QuanLyKHForm.Designer.cs">
+      <DependentUpon>QuanLyKHForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\hợp đồng\QuanLyHDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\hợp đồng\QuanLyHDForm.Designer.cs">
+      <DependentUpon>QuanLyHDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\THANHTOAN.cs" />
+    <Compile Include="form\hợp đồng\ThemHopDongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\hợp đồng\ThemHopDongForm.Designer.cs">
+      <DependentUpon>ThemHopDongForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\thợ\ThemThoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\thợ\ThemThoForm.Designer.cs">
+      <DependentUpon>ThemThoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\THO.cs" />
+    <Compile Include="form\thợ\XoaSuaThoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\thợ\XoaSuaThoForm.Designer.cs">
+      <DependentUpon>XoaSuaThoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\chức năng\TraXeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\chức năng\TraXeForm.Designer.cs">
+      <DependentUpon>TraXeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\khách hàng\ThemKhachHangForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\khách hàng\ThemKhachHangForm.Designer.cs">
+      <DependentUpon>ThemKhachHangForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\khách hàng\XoaSuaKHForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\khách hàng\XoaSuaKHForm.Designer.cs">
+      <DependentUpon>XoaSuaKHForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\chi tiết hợp đồng\ThemXoaCTHDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\chi tiết hợp đồng\ThemXoaCTHDForm.Designer.cs">
+      <DependentUpon>ThemXoaCTHDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\chi tiết hợp đồng\XemCTHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\chi tiết hợp đồng\XemCTHD.Designer.cs">
+      <DependentUpon>XemCTHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\hợp đồng\XoaSuaHopDongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\hợp đồng\XoaSuaHopDongForm.Designer.cs">
+      <DependentUpon>XoaSuaHopDongForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="form\chi tiết hợp đồng\CTHDForm.resx">
+      <DependentUpon>CTHDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\chức năng\DoanhThuForm.resx">
+      <DependentUpon>DoanhThuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\chức năng\ThanhToanForm.resx">
+      <DependentUpon>ThanhToanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\cv\CVcuaThoForm.resx">
+      <DependentUpon>CVcuaThoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\DangKiUserForm.resx">
+      <DependentUpon>DangKiUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\chức năng\GuiXeForm.resx">
+      <DependentUpon>GuiXeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="form\xe\xe dap\QuanLyXeDapForm.resx">
+      <DependentUpon>QuanLyXeDapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\xe\xe hoi\QuanLyXeHoiForm.resx">
+      <DependentUpon>QuanLyXeHoiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\xe\xe may\QuanLyXeMayForm.resx">
+      <DependentUpon>QuanLyXeMayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\xe\xe dap\ThemXeDapForm.resx">
+      <DependentUpon>ThemXeDapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\xe\xe hoi\ThemXeHoiForm.resx">
+      <DependentUpon>ThemXeHoiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\xe\xe may\ThemXeMayForm.resx">
+      <DependentUpon>ThemXeMayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\xe\TimXeForm.resx">
+      <DependentUpon>TimXeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\xe\xe dap\XoaSuaXeDapForm.resx">
+      <DependentUpon>XoaSuaXeDapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\xe\xe hoi\XoaSuaXeHoiForm.resx">
+      <DependentUpon>XoaSuaXeHoiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\xe\xe may\XoaSuaXeMayForm.resx">
+      <DependentUpon>XoaSuaXeMayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\cv\QuanLyCVForm.resx">
+      <DependentUpon>QuanLyCVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\cv\ThemCVForm.resx">
+      <DependentUpon>ThemCVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\cv\TimKiemCVForm.resx">
+      <DependentUpon>TimKiemCVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\cv\XoaSuaCVForm.resx">
+      <DependentUpon>XoaSuaCVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\thợ\QuanLyThoForm.resx">
+      <DependentUpon>QuanLyThoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\thợ\ThemThoForm.resx">
+      <DependentUpon>ThemThoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\thợ\XoaSuaThoForm.resx">
+      <DependentUpon>XoaSuaThoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\chức năng\TraXeForm.resx">
+      <DependentUpon>TraXeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\khách hàng\QuanLyKHForm.resx">
+      <DependentUpon>QuanLyKHForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\khách hàng\ThemKhachHangForm.resx">
+      <DependentUpon>ThemKhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\khách hàng\XoaSuaKHForm.resx">
+      <DependentUpon>XoaSuaKHForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\hợp đồng\QuanLyHDForm.resx">
+      <DependentUpon>QuanLyHDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\hợp đồng\ThemHopDongForm.resx">
+      <DependentUpon>ThemHopDongForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\chi tiết hợp đồng\ThemXoaCTHDForm.resx">
+      <DependentUpon>ThemXoaCTHDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\chi tiết hợp đồng\XemCTHD.resx">
+      <DependentUpon>XemCTHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\hợp đồng\XoaSuaHopDongForm.resx">
+      <DependentUpon>XoaSuaHopDongForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,101 @@
+D:\lt windows\doan\doan\bin\Debug\doan.exe.config
+D:\lt windows\doan\doan\bin\Debug\doan.exe
+D:\lt windows\doan\doan\bin\Debug\doan.pdb
+D:\lt windows\doan\doan\obj\Debug\doan.csprojAssemblyReference.cache
+D:\lt windows\doan\doan\obj\Debug\doan.MainForm.resources
+D:\lt windows\doan\doan\obj\Debug\doan.Properties.Resources.resources
+D:\lt windows\doan\doan\obj\Debug\doan.csproj.GenerateResource.cache
+D:\lt windows\doan\doan\obj\Debug\doan.csproj.CoreCompileInputs.cache
+D:\lt windows\doan\doan\obj\Debug\doan.exe
+D:\lt windows\doan\doan\obj\Debug\doan.pdb
+D:\lt windows\doan\doan\obj\Debug\doan.ThemXeDapForm.resources
+D:\lt windows\doan\doan\obj\Debug\doan.DangKiUserForm.resources
+D:\lt windows\doan\doan\obj\Debug\doan.LoginForm.resources
+E:\lt windows\doan\doan\bin\Debug\doan.exe.config
+E:\lt windows\doan\doan\bin\Debug\doan.exe
+E:\lt windows\doan\doan\bin\Debug\doan.pdb
+E:\lt windows\doan\doan\obj\Debug\doan.csprojAssemblyReference.cache
+E:\lt windows\doan\doan\obj\Debug\doan.DangKiUserForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.LoginForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.MainForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.Properties.Resources.resources
+E:\lt windows\doan\doan\obj\Debug\doan.ThemXeDapForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.csproj.GenerateResource.cache
+E:\lt windows\doan\doan\obj\Debug\doan.csproj.CoreCompileInputs.cache
+E:\lt windows\doan\doan\obj\Debug\doan.exe
+E:\lt windows\doan\doan\obj\Debug\doan.pdb
+E:\lt windows\doan\doan\obj\Debug\doan.ThemXeMayForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.ThemXeHoiForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.TimXeForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.XoaSuaXeDapForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.XoaSuaXeMayForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.XoaSuaXeHoiForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.QuanLyXeDapForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.QuanLyXeMayForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.QuanLyXeHoiForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.ThemCVForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.TimKiemCVForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.XoaSuaCVForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.QuanLyCVForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.ThemThoForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.XoaSuaThoForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.QuanLyThoForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.CVcuaThoForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.GuiXeForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.TraXeForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.ThanhToanForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.DoanhThuForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.csproj.ResolveComReference.cache
+E:\lt windows\doan\doan\obj\Debug\doan.ThemKhachHangForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.XoaSuaKHForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.QuanLyKHForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.ThemHopDongForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.XoaSuaHopDongForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.QuanLyHDForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.CTHDForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.ThemXoaCTHDForm.resources
+E:\lt windows\doan\doan\obj\Debug\doan.XemCTHD.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\bin\Debug\doan.exe.config
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\bin\Debug\doan.exe
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\bin\Debug\doan.pdb
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.csprojAssemblyReference.cache
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.csproj.ResolveComReference.cache
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.CTHDForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.DoanhThuForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.ThanhToanForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.CVcuaThoForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.DangKiUserForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.LoginForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.MainForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.GuiXeForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.Properties.Resources.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.QuanLyXeDapForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.QuanLyXeHoiForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.QuanLyXeMayForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.ThemXeDapForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.ThemXeHoiForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.ThemXeMayForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.TimXeForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.XoaSuaXeDapForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.XoaSuaXeHoiForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.XoaSuaXeMayForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.QuanLyCVForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.ThemCVForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.TimKiemCVForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.XoaSuaCVForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.QuanLyThoForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.ThemThoForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.XoaSuaThoForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.TraXeForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.QuanLyKHForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.ThemKhachHangForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.XoaSuaKHForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.QuanLyHDForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.ThemHopDongForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.ThemXoaCTHDForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.XemCTHD.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.XoaSuaHopDongForm.resources
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.csproj.GenerateResource.cache
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.csproj.CoreCompileInputs.cache
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.exe
+D:\2ndCourse2020-2021\windows\finalProject\doan\doan\obj\Debug\doan.pdb
